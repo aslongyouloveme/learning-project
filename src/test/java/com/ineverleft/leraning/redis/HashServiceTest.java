@@ -9,15 +9,15 @@ import javax.annotation.Resource;
 class HashServiceTest {
 
   @Resource private HashService hashService;
-
-  @Test
-  void hashAdd() {
-    hashService.hashAdd();
-  }
-
-
-  @Test
-  void getHash() {
-    hashService.getHash();
-  }
+//
+//  @Test
+//  void hashAdd() {
+//    hashService.hashAdd();
+//  }
+//
+//
+//  @Test
+//  void getHash() {
+//    hashService.getHash();
+//  }
 }

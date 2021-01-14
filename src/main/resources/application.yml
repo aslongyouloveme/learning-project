@@ -8,6 +8,8 @@ spring:
   data:
     rest:
       base-path: /api
+    elasticsearch:
+      cluster-nodes:
   datasource:
     url: jdbc:mysql://localhost:3306/glemp?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
     username: root
@@ -18,3 +20,6 @@ spring:
       show-sql: true
       hibernate:
         ddl-auto: update
+  elasticsearch:
+    rest:
+      uris: 172.16.2.119:9200

@@ -3,6 +3,7 @@ package com.ineverleft.leraning.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -15,7 +16,7 @@ public class User {
   @Id
   private Long id;
   private String uname;
-  private Date ucreatetime;
+  private LocalDateTime ucreatetime;
   private Integer age;
 
   public Long getId() {
@@ -34,11 +35,11 @@ public class User {
     this.uname = uname;
   }
 
-  public Date getUcreatetime() {
+  public LocalDateTime getUcreatetime() {
     return ucreatetime;
   }
 
-  public void setUcreatetime(Date ucreatetime) {
+  public void setUcreatetime(LocalDateTime ucreatetime) {
     this.ucreatetime = ucreatetime;
   }
 

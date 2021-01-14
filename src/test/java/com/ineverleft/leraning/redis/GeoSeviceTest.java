@@ -7,16 +7,16 @@ import javax.annotation.Resource;
 
 @SpringBootTest
 class GeoSeviceTest {
-
-  @Resource private GeoSevice geoSevice;
-
-  @Test
-  public void geoAdd() {
-    geoSevice.geoAdd();
-  }
-
-  @Test
-  public void geoGetRadius() {
-    geoSevice.geoGetRadius();
-  }
+//
+//  @Resource private GeoSevice geoSevice;
+//
+//  @Test
+//  public void geoAdd() {
+//    geoSevice.geoAdd();
+//  }
+//
+//  @Test
+//  public void geoGetRadius() {
+//    geoSevice.geoGetRadius();
+//  }
 }

@@ -10,8 +10,8 @@ class LockServiceTest {
 
   @Resource LockService lockService;
 
-  @Test
-  void lock() throws Exception {
-    lockService.lock();
-  }
+//  @Test
+//  void lock() throws Exception {
+//    lockService.lock();
+//  }
 }
