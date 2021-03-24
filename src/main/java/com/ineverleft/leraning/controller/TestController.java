@@ -17,7 +17,6 @@ import javax.annotation.Resource;
 @RestController
 public class TestController {
 
-  @Resource private TestService testService;
   @Resource EntryStrategyRouter router;
   @Resource private ApiStrategyRouterV1 apiStrategyRouterV1;
   @Autowired
